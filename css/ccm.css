@@ -1,0 +1,416 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("../img/headerbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 60%;
+    min-height: 500px;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.hero-date {
+    padding: 30px;
+    background: rgba(16, 48, 82, 0.3);
+}
+
+.hero-month {
+    font-size: 42px;
+    color: #103052;
+    margin-left: 1rem;
+}
+
+.lapiz {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 650px;
+}
+
+.taza {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    height: 500px;
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: #ffffff!important;
+}
+
+.navbar-blue .navbar-nav .nav-link {
+    color: #103052;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    color: #002c5d;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 2rem;
+    font-size: 2.5rem;
+    border-radius: 35px;
+    font-weight: 900;
+}
+
+.btn {
+    border-radius: 1.5rem;
+}
+
+.btn-yellow {
+    color: white;
+    background-color: #f1ae00;
+    border-color: #F8BF2C;
+}
+
+.h1, h1 {
+    font-size: 62px;
+    font-weight: 900;
+    color: #2F4675;
+}
+.h3, h3 {
+    font-size: 2rem;
+    color: #EF7420;
+    font-weight: bold;
+}
+
+.yellow-circle {
+    background-color: #F8BF2C!important;
+    border-radius: 50%!important;
+    padding: 0.4em;
+    font-size: 3em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    margin-right: 1.5rem;
+}
+
+.code {
+    color: #2F4675;
+    font-weight: 900;
+}
+
+.requisitos {
+    color: #9A9A9A;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+#presentacion p {
+    font-size: 24px;
+    color: #595959;
+    line-height: 32px;
+    margin-bottom: 25px;
+
+}
+
+#cursos {
+    padding: 30px 30px;
+    margin-bottom: 50px;
+}
+
+.curso {
+    margin: 80px 0px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 900;
+    color: #2F4675;
+}
+
+.professor {
+    font-size: 20px;
+}
+
+#talks {
+    padding: 30px 30px;
+    margin-bottom: 50px;
+    background-color: #EFEFEF;
+}
+
+p {
+    font-size: 24px;
+    color: #595959;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.color-yellow {
+    color: #F8BF2C;
+}
+
+.color-blue {
+    color: #2F4675!important;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-blue {
+    color: #103052;
+}
+
+#presentacion {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#registro {
+    background-color: #EFEFEF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.registro h1 {
+    color: #F5F5F5;
+    margin-top: 10px;
+}
+
+.registro h3 {
+    color: #F5F5F5;
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+#registro p {
+    font-size: 24px;
+    color: #595959;
+    line-height: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.cursos .lead {
+    font-size: 1.5rem;
+}
+
+.cursos h3 {
+    color: #333333;
+}
+.fisico-matematicas {
+    padding: 20px;
+    background: #2DD0E3;
+}
+
+.fisico-matematicas-color {
+    color: white;
+}
+
+.geometria-grupos {
+    padding: 20px;
+    background: #EE0A49;
+    color: white;
+}
+
+.geometria-grupos-color {
+    color: white;
+}
+
+.temas-generales {
+    padding: 20px;
+    background: #0F7D8A;
+    color: white;
+}
+
+.temas-generales-color {
+    color: white;
+}
+
+.cursos .titulo {
+    margin-top: 1.4rem;
+    margin-bottom: 4px;
+}
+
+.cursos p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#programa {
+    background-size: 350px;
+    background-color: #262929;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.badge-fm {
+    color: black;
+    background-color: #2DD0E3;
+}
+
+.badge-gg {
+    color: white;
+    background-color: #EE0A49;
+}
+
+.badge-tg {
+    color: white;
+    background-color: #0F7D8A;
+}
+
+.programa h1 {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.programa h3 {
+    color: #b4e6ff;
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+.programa p {
+    color: #009dd0;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.programa .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #F8BC8D;
+    background-color: #4a4a4a;
+    border-color: #495057 #495057 #495057;
+    font-size: 1.2rem;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #616161;
+}
+
+.programa .table td, .table th {
+    border-top: 1px solid #545454;
+    color: #8c8c8c;
+}
+
+.programa a {
+    color: #F8BC8D;
+}
+
+hr {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0;
+    border-top: 1px solid #545454;
+}
+
+#organizadores {
+    background-size: 350px;
+    background-color: #20406f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.organizadores h1 {
+    margin-top: 10px;
+    color: #50d1e3;
+}
+
+.organizadores h3 {
+    color: white;
+    font-size: 1.75rem;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.organizadores p {
+    color: #6bc8e6;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hotel {
+    font-size: 1rem !important;
+}
+
+/*.bg-dark {*/
+/*    background-color: #000000!important;*/
+/*}*/
+
+#footer {
+    /*background-color: #343a40!important;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo-footer {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.logo-container {
+    display:inline-block!important;
+    justify-content:left!important;
+}
+
+.card-body p {
+    font-size: 1.2rem;
+}
+
+.modal-content {
+    padding: 1.8rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+    body {
+        margin-top: 56px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .logo-emalca {
+        /*max-width: 100%;*/
+        /*height: auto;*/
+        width: 100%;
+    }
+
+    .presentacion p {
+        font-size: 1.1rem;
+    }
+
+    .logo-footer {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .logo-container {
+        display:flex!important;
+        justify-content:center!important;
+    }
+}
+
+/* iPhone 11 */
+/* 1792x828px at 326ppi */
+/*@media only screen {*/
+/*    and (device-width: 414px)*/
+/*    and (device-height: 896px)*/
+/*    and (-webkit-device-pixel-ratio: 2) { }*/
+/*}*/
