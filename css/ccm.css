@@ -139,7 +139,7 @@ a {
 }
 
 .title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
     color: #2F4675;
 }
@@ -378,39 +378,31 @@ hr {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 
-    body {
-        margin-top: 56px;
-    }
-
     .hero-text h1 {
         font-size: 36px;
     }
 
-    .logo-emalca {
-        /*max-width: 100%;*/
-        /*height: auto;*/
-        width: 100%;
+    .h1, h1 {
+        font-size: 46px;
     }
 
-    .presentacion p {
-        font-size: 1.1rem;
+    .btn-group-lg>.btn, .btn-lg {
+        font-size: 1.5rem;
     }
 
-    .logo-footer {
-        margin-left: 0;
-        margin-top: 25px;
+    #presentacion p {
+        font-size: 18px;
+        line-height: 26px;
     }
 
-    .logo-container {
-        display:flex!important;
-        justify-content:center!important;
+    #registro p {
+        font-size: 18px;
+        line-height: 26px;
     }
+
+    p {
+        font-size: 20px;
+    }
+
 }
 
-/* iPhone 11 */
-/* 1792x828px at 326ppi */
-/*@media only screen {*/
-/*    and (device-width: 414px)*/
-/*    and (device-height: 896px)*/
-/*    and (-webkit-device-pixel-ratio: 2) { }*/
-/*}*/
