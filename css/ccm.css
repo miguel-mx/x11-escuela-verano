@@ -63,6 +63,15 @@ body, html {
     font-size: 20px;
 }
 
+.navbar-blue .navbar-toggler-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+.navbar-blue .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+}
+
 a {
     color: #002c5d;
 }
@@ -111,6 +120,10 @@ a {
 .code {
     color: #2F4675;
     font-weight: 900;
+}
+
+.req-features {
+    justify-content: center!important;
 }
 
 .requisitos {
@@ -402,6 +415,12 @@ hr {
 
     p {
         font-size: 20px;
+    }
+
+    .req-features {
+        margin: 40px 0px;
+        justify-content: left!important;
+        text-align: right;
     }
 
 }
