@@ -61,11 +61,12 @@ body, html {
     color: #103052;
     font-weight: bold;
     font-size: 20px;
+    margin: 0 30px;
 }
 
-.navbar-blue .navbar-toggler-icon {
-    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-}
+/*.navbar-blue .navbar-toggler-icon {
+    background-image: url(data:image/svg+xml,%3csvg) xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}*/
 
 .navbar-blue .navbar-toggler {
     color: rgba(0,0,0,.55);
@@ -148,7 +149,7 @@ a {
 }
 
 .curso {
-    margin: 80px 0px;
+    margin: 80px 0;
 }
 
 .title {
@@ -163,8 +164,11 @@ a {
 
 #talks {
     padding: 30px 30px;
-    margin-bottom: 50px;
     background-color: #EFEFEF;
+}
+
+.title:hover {
+    background-color: #F8BF2C;
 }
 
 p {
@@ -220,6 +224,11 @@ p {
     margin-bottom: 25px;
     text-align: center;
 }
+
+.programa h1 {
+     font-size: 38px;
+}
+
 .cursos .lead {
     font-size: 1.5rem;
 }
@@ -267,10 +276,45 @@ p {
 }
 
 #programa {
-    background-size: 350px;
-    background-color: #262929;
+    background-color: #2f4675;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+#schedule {
+    background-color: #2f4675;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.time {
+    margin-top: 1rem;
+    color: #bfbfbf;
+    min-height: 2.5rem;
+}
+
+.programa h1 {
+    font-size: 38px;
+}
+
+#schedule .h2, h2 {
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+}
+
+.schedule h3 {
+    margin-top: 0.75rem;
+    font-size: 24px;
+    line-height: 33px;
+    color: #f8bf2c;
+    margin-bottom: 1px;
+}
+
+.schedule p {
+    color: #95f0ff;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .badge-fm {
@@ -294,35 +338,45 @@ p {
 }
 
 .programa h3 {
-    color: #b4e6ff;
+    color: #f8bf2c;
     margin-top: .75rem;
     margin-bottom: 1px;
+    font-size: 28px;
 }
 
 .programa p {
-    color: #009dd0;
+    color: #95f0ff;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
 .programa .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #F8BC8D;
-    background-color: #4a4a4a;
-    border-color: #495057 #495057 #495057;
+    color: #2f4675;
+    background-color: #cccccc;
+    border-color: #dee2e6;
     font-size: 1.2rem;
 }
 
 .nav-tabs {
-    border-bottom: 1px solid #616161;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-link {
+     color: #7393d5;
+ }
+
+.nav-link:focus, .nav-link:hover {
+    color: #c1ccdb;
 }
 
 .programa .table td, .table th {
     border-top: 1px solid #545454;
-    color: #8c8c8c;
+    color: #d9d9d9;
+    font-weight: normal;
 }
 
 .programa a {
-    color: #F8BC8D;
+    color: #ffe688
 }
 
 hr {
@@ -418,7 +472,7 @@ hr {
     }
 
     .req-features {
-        margin: 40px 0px;
+        margin: 40px 0;
         justify-content: left!important;
         text-align: right;
     }
