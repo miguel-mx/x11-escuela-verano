@@ -225,6 +225,13 @@ p {
     text-align: center;
 }
 
+.resultados {
+    font-size: 24px;
+    color: #595959;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
 .programa h1 {
      font-size: 38px;
 }
@@ -463,6 +470,11 @@ hr {
     }
 
     #registro p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .resultados {
         font-size: 18px;
         line-height: 26px;
     }
